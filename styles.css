@@ -1,3 +1,32 @@
+* {
+    margin: 0 auto;
+}
 body {
-    background-color: plum;
+    background-color: gray;
+    color: white;
+    font-family: fantasy;
+    margin: 0 auto;
+}
+nav {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    background-color:black;
+    padding: 50px;
+    display: block;
+}
+li {
+    color: lightgray;
+    float: left;
+}
+li a {
+    color: lightgray;
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+a:hover {
+    color: darkgrey;
 }
