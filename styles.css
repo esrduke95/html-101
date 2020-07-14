@@ -30,3 +30,19 @@ li a {
 a:hover {
     color: darkgrey;
 }
+article {
+    font-family: sans-serif;
+}
+section {
+    padding: 20px;
+    border: black;
+    border-style: solid;
+}
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+}
