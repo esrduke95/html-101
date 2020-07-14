@@ -1,20 +1,15 @@
-* {
-    margin: 0 auto;
-}
 body {
-    background-color: gray;
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/78/98/5R2EL3.jpg");
     color: white;
-    font-family: fantasy;
+    font-family: sans-serif;
     margin: 0 auto;
-}
-nav {
-    text-align: center;
 }
 ul {
     list-style-type: none;
-    background-color:black;
+    background-color:grey;
     padding: 50px;
     display: block;
+    margin: 0;
 }
 li {
     color: lightgray;
@@ -28,7 +23,7 @@ li a {
 
 }
 a:hover {
-    color: darkgrey;
+    color: black;
 }
 article {
     font-family: sans-serif;
@@ -42,7 +37,22 @@ footer {
     background-color: black;
     position: fixed;
     bottom: 0;
-    bottom: 0;
     height: 35px;
     width: 100%;
+}
+.card {
+    padding: 30px;
+    margin: 30px;
+    border-style: solid;
+    border-color: chartreuse;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.imageWrapper {
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
 }
